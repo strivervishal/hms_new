@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 
-const BASE_URL = import.meta.env.VITE_BACKEND_BASE_URL;
+const BASE_URL ='http://localhost:5000';
 
 const Input = ({ label, name, type = "text", icon: Icon, value, onChange }) => {
   return (

@@ -7,7 +7,7 @@ import { ToastContainer } from "react-toastify";
 import "../styles/global.css";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
-const BASE_URL = import.meta.env.VITE_BACKEND_BASE_URL;
+const BASE_URL = 'http://localhost:5000';
 
 const PatientLogin = () => {
   const [formData, setFormData] = useState({ patient_username: "", patient_password: "" });
